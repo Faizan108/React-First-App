@@ -33,6 +33,7 @@ function App() {
   return (
     <div className="App-header">
      <h1 className="App">Let's Get Started</h1>
+     <h1>Hello how are you</h1>
      <Expenses items={expense}></Expenses>
    </div>
   );
