@@ -3,7 +3,7 @@ import './App.css';
 import ExpenseItem from './components/ExpenseItem';
 import Expenses from './components/Expenses';
 
-function App() {
+const App = () => {
  const expense=[
     {
       id:"e1",
@@ -33,7 +33,6 @@ function App() {
   return (
     <div className="App-header">
      <h1 className="App">Let's Get Started</h1>
-     <h1>Hello how are you</h1>
      <Expenses items={expense}></Expenses>
    </div>
   );
