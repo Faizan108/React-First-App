@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import ExpenseItem from './components/ExpenseItem';
 import Expenses from './components/Expenses';
-
+import NewExpense from './components/NewExpenses/NewExpense';
 const App = () => {
  const expense=[
     {
@@ -32,7 +32,7 @@ const App = () => {
   ]
   return (
     <div className="App-header">
-     <h1 className="App">Let's Get Started</h1>
+     <NewExpense></NewExpense>
      <Expenses items={expense}></Expenses>
    </div>
   );
